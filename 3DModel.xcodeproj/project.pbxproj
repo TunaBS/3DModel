@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B629BEF2C75F7DE0049BB5C /* CaptureOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B629BEE2C75F7DE0049BB5C /* CaptureOverlayView.swift */; };
+		4B73952F2C74718E0090A7E7 /* ModelFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B73952E2C74718E0090A7E7 /* ModelFile.swift */; };
+		4B7395312C74ABC70090A7E7 /* CaptureFolderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7395302C74ABC70090A7E7 /* CaptureFolderManager.swift */; };
+		4B7395332C74AC760090A7E7 /* ShotFileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7395322C74AC760090A7E7 /* ShotFileInfo.swift */; };
+		4B7395352C74B4590090A7E7 /* ModelFile+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7395342C74B4590090A7E7 /* ModelFile+State.swift */; };
+		4B7395372C74C2610090A7E7 /* CapturePrimaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7395362C74C2610090A7E7 /* CapturePrimaryView.swift */; };
 		4B78FC092C736BBE00858D09 /* _DModelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78FC082C736BBE00858D09 /* _DModelApp.swift */; };
 		4B78FC0B2C736BBE00858D09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78FC0A2C736BBE00858D09 /* ContentView.swift */; };
 		4B78FC0D2C736BC000858D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B78FC0C2C736BC000858D09 /* Assets.xcassets */; };
@@ -14,6 +20,7 @@
 		4B78FC1A2C736BC000858D09 /* _DModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78FC192C736BC000858D09 /* _DModelTests.swift */; };
 		4B78FC242C736BC000858D09 /* _DModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78FC232C736BC000858D09 /* _DModelUITests.swift */; };
 		4B78FC262C736BC000858D09 /* _DModelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78FC252C736BC000858D09 /* _DModelUITestsLaunchTests.swift */; };
+		4B78FC332C7375DA00858D09 /* ShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78FC322C7375DA00858D09 /* ShowModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B629BEE2C75F7DE0049BB5C /* CaptureOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureOverlayView.swift; sourceTree = "<group>"; };
+		4B73952E2C74718E0090A7E7 /* ModelFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFile.swift; sourceTree = "<group>"; };
+		4B7395302C74ABC70090A7E7 /* CaptureFolderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureFolderManager.swift; sourceTree = "<group>"; };
+		4B7395322C74AC760090A7E7 /* ShotFileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotFileInfo.swift; sourceTree = "<group>"; };
+		4B7395342C74B4590090A7E7 /* ModelFile+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelFile+State.swift"; sourceTree = "<group>"; };
+		4B7395362C74C2610090A7E7 /* CapturePrimaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturePrimaryView.swift; sourceTree = "<group>"; };
 		4B78FC052C736BBE00858D09 /* 3DModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B78FC082C736BBE00858D09 /* _DModelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DModelApp.swift; sourceTree = "<group>"; };
 		4B78FC0A2C736BBE00858D09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,7 @@
 		4B78FC1F2C736BC000858D09 /* 3DModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B78FC232C736BC000858D09 /* _DModelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DModelUITests.swift; sourceTree = "<group>"; };
 		4B78FC252C736BC000858D09 /* _DModelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DModelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B78FC322C7375DA00858D09 /* ShowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +112,13 @@
 				4B78FC0A2C736BBE00858D09 /* ContentView.swift */,
 				4B78FC0C2C736BC000858D09 /* Assets.xcassets */,
 				4B78FC0E2C736BC000858D09 /* Preview Content */,
+				4B78FC322C7375DA00858D09 /* ShowModel.swift */,
+				4B73952E2C74718E0090A7E7 /* ModelFile.swift */,
+				4B7395302C74ABC70090A7E7 /* CaptureFolderManager.swift */,
+				4B7395322C74AC760090A7E7 /* ShotFileInfo.swift */,
+				4B7395342C74B4590090A7E7 /* ModelFile+State.swift */,
+				4B7395362C74C2610090A7E7 /* CapturePrimaryView.swift */,
+				4B629BEE2C75F7DE0049BB5C /* CaptureOverlayView.swift */,
 			);
 			path = 3DModel;
 			sourceTree = "<group>";
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B78FC332C7375DA00858D09 /* ShowModel.swift in Sources */,
+				4B629BEF2C75F7DE0049BB5C /* CaptureOverlayView.swift in Sources */,
+				4B7395312C74ABC70090A7E7 /* CaptureFolderManager.swift in Sources */,
 				4B78FC0B2C736BBE00858D09 /* ContentView.swift in Sources */,
+				4B7395332C74AC760090A7E7 /* ShotFileInfo.swift in Sources */,
+				4B7395352C74B4590090A7E7 /* ModelFile+State.swift in Sources */,
 				4B78FC092C736BBE00858D09 /* _DModelApp.swift in Sources */,
+				4B7395372C74C2610090A7E7 /* CapturePrimaryView.swift in Sources */,
+				4B73952F2C74718E0090A7E7 /* ModelFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +450,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"3DModel/Preview Content\"";
+				DEVELOPMENT_TEAM = MAU2W4P8T9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For scan";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +480,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"3DModel/Preview Content\"";
+				DEVELOPMENT_TEAM = MAU2W4P8T9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For scan";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
